@@ -9,6 +9,7 @@
 <script>
     $(document).ready(function()
     {
+        // Append the following HTML code to the body
         $("html").append
         (
             "<body>\
@@ -22,7 +23,11 @@
                 </div>\
             </body>"
         );
+        
+        // Change the color of the element with id '2' to red
         $("#2").css("color", "red");
+        
+        // Hide the h1 element when the element with id '3' is clicked
         $("#3").click(function()
         {
             $("h1").hide();
@@ -30,3 +35,4 @@
     });
 </script>
 <html>
+
